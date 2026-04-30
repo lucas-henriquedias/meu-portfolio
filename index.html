@@ -1,29 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio | Lucas Henrique Dias</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <ul>
+    <header class="nav_bar">
+        <ul class="list_nav">
             <li>
-                <a href="#">Início</a>
+                <a class="item_list" href="index.html">Início</a>
             </li>
             <li>
-                <a href="#">Projetos</a>
+                <a class="item_list" href="pages/projetos.html">Projetos</a>
             </li>
             <li>
-                <a href="#">Jornada</a>
+                <a class="item_list" href="#">Jornada</a>
             </li>
         </ul>
     </header>
 
-    <section>
-        <img src="imagens/foto_perfil.png" alt="imagem de Lucas Henrique, um homem negro com cabelos morenos ondulados olhando para a câmera, veste uma camisa social preta.">
-        <h1>Lucas Henrique Dias de Medeiros</h1>
-        <p></p>
+    <section class="section_about_me">
+        <article class="content_about_me">
+            <h1>👋🏽 Hello World!</h1>
+            <p>Me chamo Lucas Henrique Dias, tenho 19 anos, sou estudante de 
+                <strong>Ciências da Computação</strong> (3 período), tenho experiência acadêmica 
+                com linguagens de diferentes ramos (Python, C, SQL, HTML e CSS), Linux, 
+                controle de versão com Git e Github, familiaridade em modelagem de 
+                Banco de Dados, montagem e manutenção de computadores e conhecimentos em 
+                Rede de Computadores. <br><br>
+                Procuro sempre me atualizar e aprimorar através de cursos, imersões, 
+                eventos e palestras sobre diferentes setores, ferramentas e novas 
+                tecnologias da área de TI (Tecnologia da Informação).
+            
+            <h3>Acesse minhas redes:</h3>
+            <div class="btns_redes">
+                <a class="btn" target="_blank" href="https://www.linkedin.com/in/lucas-henrique-dias-345666346/">
+                    <img class="icon" src="imagens/linkedin.png" alt="icone do Linkedin, preto redondo com as iniciais in.">
+                    <span>Linkedin<span>
+                </a>
+
+                <a class="btn" target="_blank" href="https://github.com/lucas-henriquedias">
+                    <img class="icon" src="imagens/github.png" alt="icone do Linkedin, preto redondo com as iniciais in.">
+                    <span>Github<span>
+                </a>
+            </div>
+            
+        </article>
+        
+        <img class="img_inicial" src="imagens/foto_perfil.png" alt="imagem de 
+        Lucas Henrique, um homem negro com cabelos morenos ondulados olhando 
+        para a câmera, veste uma camisa social preta.">
     </section>
+
+    <footer>
+        Desenvolvido por Lucas Henrique Dias
+    </footer>
 </body>
 </html>

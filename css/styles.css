@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --first_color: rgb(31, 30, 30);
+    --second_color: rgb(238, 23, 23);
+    --color_letters: white;
+    --color_letters_second: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    color: var(--color_letters);
+    height: 100vh;
+    background-color: var(--first_color);
+}
+
+.nav_bar {  /* conteiner da nav bar, o header */
+    width: 100vw;
+}
+
+.list_nav {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.item_list {
+    color: var(--second_color);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.item_list:hover {
+    color: var(--color_letters);
+}
+
+
+
+.section_about_me {     /* container das informações iniciais. */
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_about_me {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.btns_redes {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--color_letters_second);
+    background-color: var(--second_color);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px black;
+    font-weight: bold;
+}
+
+.icon {
+    max-width: 30px;
+}
+
+.img_inicial {
+    margin: 0 30px;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 4px 100px black;
+}
+
+footer {
+    width: 100vw;
+    background-color: var(--second_color);
+    color: var(--color_letters_second);
+    font-weight: bold;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
