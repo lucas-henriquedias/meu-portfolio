@@ -21,7 +21,7 @@ body {
 }
 
 .nav_bar {  /* conteiner da nav bar, o header */
-    width: 100vw;
+    width: 100%;
 }
 
 .list_nav {
@@ -44,38 +44,36 @@ body {
     color: var(--color_letters);
 }
 
+/*=================== Initial Section ================*/
 
-
-.section_about_me {     /* container das informações iniciais. */
-    padding: 30px 100px;
+.initial_section {     /* container das informações iniciais. */
+    margin: 200px 100px;
+    margin-bottom: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content_about_me {
+.initial_content {
+    padding: 0 100px;
     max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align: left;
 }
 
 h1 {
-    text-align: center;
     font-size: 40px;
 }
 
 p {
     text-align: justify;
-    margin: 0 40px;
     font-size: 18px;
 }
 
-h3 {
-    text-align: center;
-}
-
 .btns_redes {
+    margin: 30px 0;
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -109,8 +107,33 @@ h3 {
     box-shadow: 0 4px 100px black;
 }
 
+/*=================== About Me Section ======================*/
+
+.about_me_section {
+    text-align: center;
+    margin: 150px 300px;
+}
+
+.about_me_content {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.about_me_text {
+    margin: 0 100px;
+}
+
+.title {
+    margin: 50px;
+    color: var(--second_color);
+    font-size: 30px;
+}
+
+/*===========================================================*/
+
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: var(--second_color);
     color: var(--color_letters_second);
     font-weight: bold;
