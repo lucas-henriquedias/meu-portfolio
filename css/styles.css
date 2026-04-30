@@ -2,7 +2,7 @@
 
 :root {
     --first_color: rgb(31, 30, 30);
-    --second_color: rgb(238, 23, 23);
+    --second_color: rgb(247, 61, 61);
     --color_letters: white;
     --color_letters_second: black;
 }
@@ -56,7 +56,7 @@ body {
 
 .initial_section article {
     padding: 0 100px;
-    max-width: 800px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -110,7 +110,7 @@ h1 {
 
 .about_me_section {
     text-align: center;
-    margin: 150px 300px;
+    margin: 150px 400px;
 }
 
 .title {
@@ -161,7 +161,53 @@ h1 {
     max-width: 20px;
 }
 
-/*===========================================================*/
+/*===================== Projects Section =====================*/
+
+.projects_section {
+    text-align: center;
+    margin: 150px 200px;
+}
+
+.projects_section article {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.content_project {
+    max-width: 350px;
+    padding: 20px;
+    text-align: justify;
+    border: 5px solid var(--second_color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projects_section div img {
+    max-width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.btns_repository {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   /* verificar isto para deixar os botões sempre no fina do container dos projetos */
+    gap: 20px;
+}
+
+.projects_section div a {
+    text-decoration: none;
+    color: var(--color_letters);
+    font-weight: bold;
+    background-color: var(--second_color);
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+/*============================================================*/
 
 footer {
     width: 100%;
