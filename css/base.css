@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root { /* definindo algumas cores do site. */
+    --first_color: rgb(31, 30, 30);
+    --second_color: rgb(247, 61, 61);
+    --color_letters: white;
+    --color_letters_second: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    color: var(--color_letters);
+    height: 100vh;
+    background-color: var(--first_color);
+}
+
+h1 {
+    font-size: clamp(35px, 5vw, 40px);
+}
+
+h2 {
+    font-size: clamp(25px, 3vw, 30px);
+}
+
+h3 {
+    font-size: clamp(20px, 3.3vw, 24px);
+}

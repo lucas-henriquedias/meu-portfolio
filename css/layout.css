@@ -1,0 +1,83 @@
+
+/*=============== Nav bar ===============*/
+
+.nav_bar {  /* conteiner da nav bar, o header */
+    width: 100%;
+}
+
+.list_nav {     /* lista não ordenada da nav bar */
+    list-style: none;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+/*========== Initial Section ==============*/
+
+.initial_section {     /* container das informações iniciais. */
+    margin: 100px 50px;
+    margin-bottom: 280px;
+
+    text-align: justify;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial_section article {  /* conteiner dos itens/divs da sessão */
+    padding: 0 100px;
+    max-width: 900px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*========== About Me Section =============*/
+
+.about_me_section {     /* conteiner da sessão 'sobre mim' */
+    text-align: center;
+    margin: 150px auto;
+    max-width: 1100px;
+    padding: 0 50px;
+}
+
+.about_me_content {  /* conteiner dos conteúdos de dentro desta . */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/*========== About Me Section =============*/
+
+.projects_section {
+    text-align: center;
+    margin: 150px 100px;
+}
+
+.projects_section article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/*=============== Footer =================*/
+
+footer {  
+    width: 100%;
+    background-color: var(--second_color);
+    color: var(--color_letters_second);
+    font-weight: bold;
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+
