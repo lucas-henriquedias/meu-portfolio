@@ -165,13 +165,14 @@ h1 {
 
 .projects_section {
     text-align: center;
-    margin: 150px 200px;
+    margin: 150px 100px;
 }
 
 .projects_section article {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 50px;
 }
 
 .content_project {
@@ -182,7 +183,7 @@ h1 {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .projects_section div img {
@@ -194,16 +195,17 @@ h1 {
 .btns_repository {
     display: flex;
     justify-content: center;
-    align-items: flex-end;   /* verificar isto para deixar os botões sempre no fina do container dos projetos */
     gap: 20px;
 }
 
 .projects_section div a {
     text-decoration: none;
     color: var(--color_letters);
+    width: 130px;
+    text-align: center;
     font-weight: bold;
     background-color: var(--second_color);
-    padding: 10px 50px;
+    padding: 10px 0;
     border-radius: 5px;
 }
 
