@@ -47,7 +47,7 @@ body {
 /*=================== Initial Section ================*/
 
 .initial_section {     /* container das informações iniciais. */
-    margin: 200px 100px;
+    margin: 100px 50px;
     margin-bottom: 280px;
     display: flex;
     justify-content: center;
@@ -110,7 +110,7 @@ h1 {
 
 .about_me_section {
     text-align: center;
-    margin: 150px 400px;
+    margin: 150px 200px;
 }
 
 .title {
