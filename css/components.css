@@ -42,7 +42,8 @@
 /*========== Itens da About Me Section =========*/
 
 .title {
-    margin: 50px;
+    text-align: center;
+    margin: 30px;
     color: var(--second_color);
     font-size: 30px;
 }
