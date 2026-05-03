@@ -36,8 +36,10 @@
     
     .btns_redes {
         margin: 0;
+        padding: 30px 0;
 
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
     }
@@ -104,8 +106,10 @@
     
     .btns_redes {
         margin: 0;
+        padding: 50px 0;
 
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
     }
