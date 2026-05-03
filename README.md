@@ -44,14 +44,14 @@ Tudo isso com um design moderno, responsivo e focado na experiência do usuário
 
 ## 📎 Acesse o Portfólio
 
-[(meu-portfolio)](https://lucas-henriquedias.github.io/meu-portfolio/)
+[meu-portfolio](https://lucas-henriquedias.github.io/meu-portfolio/)
 
 ---
 
 ## 📫 Contato
 
-* LinkedIn: [(Lucas Henrique Dias)](https://www.linkedin.com/in/lucas-henrique-dias-345666346/)
-* GitHub: [(lucas-henriquedias)](https://github.com/lucas-henriquedias)
+* LinkedIn: [Lucas Henrique Dias](https://www.linkedin.com/in/lucas-henrique-dias-345666346/)
+* GitHub: [lucas-henriquedias](https://github.com/lucas-henriquedias)
 * Email: lucasfaculdade2025@gmail.com
 
 ---
