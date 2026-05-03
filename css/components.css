@@ -5,40 +5,24 @@
     color: var(--second_color);
     text-decoration: none;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .item_list:hover {
     color: var(--color_letters);
 }
 
-/*========== Itens da Initial Section =========*/
-
-.btns_redes {
-    margin: 30px 0;
-    display: flex;
-    gap: 60px;
-}
-
-.btns_redes a {
-    width: 200px;
-    height: 50px;
-
-    padding: 10px 20px;
-    text-decoration: none;
-
+.menu_toggle {
+    padding: 20px;
+    display: none;
+    font-size: 50px;
+    background: none;
+    border: none;
     color: var(--color_letters_second);
-    background-color: var(--second_color);
-
-    border-radius: 8px;
-    box-shadow: 0 4px 20px black;
-    font-weight: bold;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    font-weight: bolder;
 }
+
+/*========== Itens da Initial Section =========*/
 
 .img_inicial {
     margin: 0 30px;
@@ -50,7 +34,9 @@
 }
 
 .icon {
-    max-width: clamp(25px ,5vw, 30px);
+    max-width: 30px;
+    height: auto;
+    object-fit: cover;
 }
 
 /*========== Itens da About Me Section =========*/
@@ -61,7 +47,7 @@
     font-size: 30px;
 }
 
-.about_me_content p {
+.about_me_section p {
     text-align: justify;
 }
 
@@ -99,6 +85,7 @@
 
 .about_me_technologies li img {
     max-width: 20px;
+    height: auto;
 }
 
 /*========== Itens da Projects Section =========*/
@@ -117,8 +104,8 @@
 }
 
 .projects_section img {
-    max-width: 300px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -139,4 +126,33 @@
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+}
+
+/*============= Contato Section =============*/
+
+.btns_redes {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.btns_redes a {
+    width: 200px;
+    height: 50px;
+
+    padding: 10px 20px;
+    text-decoration: none;
+
+    color: var(--color_letters_second);
+    background-color: var(--second_color);
+
+    border-radius: 8px;
+    box-shadow: 0 4px 20px black;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

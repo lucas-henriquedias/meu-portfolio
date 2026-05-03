@@ -1,15 +1,15 @@
 
 @media (max-width: 480px) {
-    
-    /*======== NavBar =========*/
-    .list_nav {
-        gap: 4rem;
-    }
 
     /*======== Initial Section ========*/
 
+    .menu_toggle {
+        font-size: 30px;
+        padding: 10px;
+    }
+
     .initial_section {
-        margin: 60px 0;
+        margin: 150px 0;
         text-align: center;
 
         display: flex;
@@ -17,18 +17,22 @@
         gap: 50px;
     }
 
-    .img_inicial article {
+    .initial_section article {
         max-width: 300px;
-        padding: 30px;
+        padding: 20px 0;
 
         text-align: justify;
 
         display: flex;
-        gap: 5px;
+        gap: 30px;
     }
 
     .img_inicial {
-        max-width: 200px;
+        max-width: 250px;
+    }
+
+    p, span {
+        font-size: 20px;
     }
     
     .btns_redes {
@@ -36,7 +40,6 @@
 
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
         gap: 20px;
     }
 
@@ -45,8 +48,251 @@
         padding: 10px;
     }
 
-    /*===============================*/
+    /*========= Projects|About Me Section =========*/
 
+    .about_me_section {
+        margin: 100px 20px;
+    }
+
+    .projects_section {
+        margin: 100px 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px 40px;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /*======== Initial Section ========*/
+
+    .menu_toggle {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .img_inicial {
+        max-width: 350px;
+    }
+
+    .initial_section {
+        margin: 100px 100px;
+        text-align: center;
+
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 40px;
+    }
+
+    .initial_section article {
+        max-width: 100%;
+        padding: 20px 0;
+
+        text-align: justify;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    span {
+        font-size: 25px;
+    }
     
+    .btns_redes {
+        margin: 0;
 
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .btns_redes a {
+        padding: 30px 60px;
+    }
+
+    /*======== About Me Section =========*/
+
+    .about_me_section {
+        margin: 100px 50px;
+    }
+
+    .about_me_technologies li {
+        padding: 15px 25px;
+    }
+
+    .about_me_technologies li img {
+        max-width: 30px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*=============================*/
+
+    .projects_section {
+        margin: 100px 80px;
+    }
+
+    .content_project {
+        max-width: 550px;
+    }
+    
+    .content_project img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btns_repository {
+        gap: 30px;
+    }
+
+    .projects_section a {
+        width: 50%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu_toggle {
+        display: block;
+
+        position: fixed;
+        top: 20px;
+        right: 20px;
+
+        z-index: 2000;
+        background-color: var(--second_color);
+        border: none;
+        border-radius: 100%;
+        box-shadow: 0 4px 20px black;
+        padding: 10px 20px;
+    }
+
+    .list_nav {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .list_nav.active {
+        display: flex;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /*======== NavBar =========*/
+    .list_nav {
+        gap: 5rem;
+    }
+
+    .item_list {
+        font-size: 30px;
+    }
+
+    /*======== Initial Section ========*/
+
+    .img_inicial {
+        max-width: 350px;
+    }
+
+    .initial_section {
+        margin: 100px 100px;
+        text-align: center;
+
+        display: flex;
+        gap: 30px;
+    }
+
+    .initial_section article {
+        max-width: 100%;
+        padding: 20px 0;
+
+        text-align: justify;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+    
+    .btns_redes {
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .btns_redes a {
+        padding: 30px 60px;
+    }
+
+    /*======== About Me Section =========*/
+
+    .about_me_section {
+        margin: 100px 50px;
+    }
+
+    .about_me_technologies li {
+        padding: 15px 25px;
+    }
+
+    .about_me_technologies li img {
+        max-width: 30px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*=============================*/
+
+    .projects_section {
+        margin: 100px 80px;
+    }
+
+    .content_project {
+        max-width: 550px;
+    }
+    
+    .content_project img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btns_repository {
+        gap: 30px;
+    }
+
+    .projects_section a {
+        width: 50%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px 60px;
+    }
 }

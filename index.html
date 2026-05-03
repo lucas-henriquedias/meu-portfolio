@@ -1,7 +1,8 @@
 <!-- Problemas ou Bugs para resolver:
  
-    1. Resolver formatação e tamanhos de elementos de texto da 
-    sessão inicial, estão de forma meio feia.
+    1. Melhorar o formato da nav bar com o button menu toggle. Ele
+    fica só com o texto flutuando sobre a tela, precisa de uma base 
+    abaixo dele.
 -->
 
 <!DOCTYPE html>
@@ -17,20 +18,17 @@
 </head>
 <body>
     <header class="nav_bar">
+        <button class="menu_toggle">☰</button>
+
         <ul class="list_nav">
-            <li>
-                <a class="item_list" href="index.html">Início</a>
-            </li>
-            <li>
-                <a class="item_list" href="#">Projetos</a>
-            </li>
-            <li>
-                <a class="item_list" href="#">Jornada</a>
-            </li>
+            <li><a class="item_list" href="#initial">Início</a></li>
+            <li><a class="item_list" href="#about_me">Sobre</a></li>
+            <li><a class="item_list" href="#projects">Projetos</a></li>
+            <li><a class="item_list" href="#contato">Contato</a></li>
         </ul>
     </header>
 
-    <section class="initial_section">
+    <section class="initial_section" id="initial">
         <article>
             <h2>👋🏽 Hello World! Eu sou Lucas Henrique</h2>
             <h1>Estudante de TI em Evolução </h1>
@@ -39,16 +37,14 @@
             </p>
 
             <div class="btns_redes">
-                <a target="_blank" href="https://www.linkedin.com/in/lucas-henrique-dias-345666346/">
-                    <img class="icon" src="imagens/linkedin.png" alt="icone do Linkedin, preto redondo 
-                    com as iniciais in.">
-                    <span>Linkedin<span>
+                <a href="#contato">
+                    <span>Entre em Contato<span>
                 </a>
 
-                <a target="_blank" href="https://github.com/lucas-henriquedias">
-                    <img class="icon" src="imagens/github.png" alt="icone do Linkedin, preto redondo 
-                    com as iniciais in.">
-                    <span>Github<span>
+                <a href="">
+                    <img class="icon" src="imagens/curriculo.png" alt=" icon de um papel 
+                    de currículo preto.">
+                    <span>Currículo<span>
                 </a>
             </div>
             
@@ -59,23 +55,26 @@
         para a câmera, veste uma camisa social preta.">
     </section>
 
-    <section class="about_me_section">
+<!------------------------------------------------------------------>
+
+    <section class="about_me_section" id="about_me">
         <h2 class="title">Sobre mim</h2>
         
-        <article class="about_me_content">
+        <article>
             <div>
                 <p>
-                    Me chamo Lucas Henrique Dias, tenho 19 anos e sou estudante de 
-                    <strong>Ciências da Computação</strong> (3º período). Tenho 
-                    interesse em tecnologia e venho construindo minha base através 
-                    de estudos e prática constante. 
+                    Me chamo Lucas Henrique Dias, tenho 19 anos, atualmente sou 
+                    estudante de <strong>Ciências da Computação</strong> (3º período) 
+                    e tenho técnico em <strong>ADS (Análise e Desenvolvimento de Sistemas)</strong>. 
+                    Tenho interesse em tecnologia e venho construindo minha base através 
+                    de estudos e prática constante. <br><br>
 
                     Ao longo da minha formação, tive contato com diferentes áreas da 
                     programação, utilizando linguagens como <strong>Python</strong>, 
                     <strong>C</strong>, <strong>SQL</strong>, além de <strong>HTML e 
                     CSS</strong>. Também possuo experiência com Linux, controle de versão 
                     com <strong>Git e GitHub</strong>, modelagem de banco de dados, redes 
-                    de computadores e manutenção de hardware. 
+                    de computadores e manutenção de hardware. <br><br>
 
                     Busco constantemente evoluir, participando de cursos, eventos e 
                     explorando novas ferramentas e tecnologias dentro da área de TI.
@@ -122,7 +121,9 @@
         </article>
     </section>
 
-    <section class="projects_section">
+<!------------------------------------------------------------------>
+
+    <section class="projects_section" id="projects">
         <h2 class="title">Projetos</h2>
 
         <article>
@@ -186,8 +187,35 @@
         </article>
     </section>
 
+<!------------------------------------------------------------>
+
+    <section class="contato_section" id="contato">
+        <h2 class="title">Entre em Contato</h2>
+        <p>
+            Sinta-se à vontade para entrar em contato comigo!
+        </p>
+
+        <div class="btns_redes">
+            <a target="_blank" href="https://www.linkedin.com/in/lucas-henrique-dias-345666346/">
+                <img class="icon" src="imagens/linkedin.png" alt="icone do Linkedin, preto redondo 
+                com as iniciais in.">
+                <span>Linkedin<span>
+            </a>
+
+            <a target="_blank" href="https://github.com/lucas-henriquedias">
+                <img class="icon" src="imagens/github.png" alt="icone do Linkedin, preto redondo 
+                com as iniciais in.">
+                <span>Github<span>
+            </a>
+        </div>
+    </section>
+
     <footer>
-        Desenvolvido por Lucas Henrique Dias - 2026
+        <p>
+            Desenvolvido por Lucas Henrique Dias - 2026
+        </p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

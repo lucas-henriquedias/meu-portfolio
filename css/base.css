@@ -14,10 +14,22 @@
     font-family: Montserrat;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--color_letters);
     height: 100vh;
     background-color: var(--first_color);
+}
+
+header {
+    background-color: var(--first_color);
+}
+
+section {
+    scroll-margin-top: 150px;
 }
 
 h1 {
@@ -29,5 +41,5 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(20px, 3.3vw, 24px);
+    font-size: clamp(20px, 3.5vw, 24px);
 }

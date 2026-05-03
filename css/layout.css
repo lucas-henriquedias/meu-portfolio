@@ -3,6 +3,13 @@
 
 .nav_bar {  /* conteiner da nav bar, o header */
     width: 100%;
+    position: fixed;
+    top: 0;
+    transition: 0.3s;
+}
+
+.nav_bar.scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .list_nav {     /* lista não ordenada da nav bar */
@@ -18,7 +25,7 @@
 /*========== Initial Section ==============*/
 
 .initial_section {     /* container das informações iniciais. */
-    margin: 100px 50px;
+    margin: 10% 20px;
     margin-bottom: 280px;
 
     text-align: justify;
@@ -48,13 +55,13 @@
     padding: 0 50px;
 }
 
-.about_me_content {  /* conteiner dos conteúdos de dentro desta . */
+.about_me_section article {  /* conteiner dos conteúdos de dentro desta . */
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
-/*========== About Me Section =============*/
+/*========== Projects Section =============*/
 
 .projects_section {
     text-align: center;
@@ -66,6 +73,13 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
+}
+
+/*============= Contato Section ===========*/
+
+.contato_section {
+    text-align: center;
+    margin: 150px 100px;
 }
 
 /*=============== Footer =================*/
